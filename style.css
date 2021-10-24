@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+    background-color: #fdfcff;
+    
+}
+
+
+.encabezado{
+    width: 100%;
+    background: #1aa386
+    
+}
+
+.encabezado .img-responsive{
+    width: 140px;
+    border-radius: 100%;
+}
+
+
+.encabezado nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px;
+}
+
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(238, 238, 238);
+    padding: 14px 22px;
+    display: block;
+}
+
+a:hover{
+    background: rgb(17, 9, 9);
+}
+
+.encabezado nav ul li ul{
+    display: flex;
+    flex-direction: Column;
+} 
+
+.encabezado nav ul li ul{
+    position: absolute;
+    background : #1d2a9e
+}
+
+.encabezado nav ul li ul li{
+    width: 180px;
+    position: relative;
+}
+
+.encabezado nav ul li ul li ul{
+    top: 0;
+    left: 180px;
+    position: absolute;
+}
+
+.encabezado nav ul li ul{
+    display: none;
+}
+
+.encabezado nav ul li:hover> ul{
+    display:block;
+}
+
+h1 {
+    color: #25a1ca;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: Arial;
+    text-transform: uppercase;
+}
+
+.contenedor_total {
+    display: flex;
+}
+
+.contenedor1{
+    width: 45%;
+    padding-left: 100px;
+    text-align: justify;
+}
+.contenedor2{
+    padding-left: 160px;
+    width: 50%;
+}
+
+#Inicio{
+    text-align: center;
+    font-size: 60px;
+    color: #1d2a9e;
+}
+
+#Visión{
+    text-align: center;
+    font-size: 40px;
+}
+
+#Misión{
+    text-align: center;
+    font-size: 40px;
+}
+
+.img_vis{
+    width: 80%;
+    padding-left: 80px;
+}
+
+.img_mis{
+    width: 55%;
+    padding-left: 190px;
+    padding-top: 45px;
+}
+
+.fondo_inicio{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/001/937/975/non_2x/abstract-bokeh-light-background-illustration-vector.jpg);
+}
